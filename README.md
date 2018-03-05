@@ -1,3 +1,4 @@
+
 # Odoo Docker Compose and Images
 
 ## Docker Images
@@ -37,6 +38,7 @@ To use this docker compose file need:
     * sudo service docker restart && newgrp docker
 * clone this repository "git clone git@github.com:ingadhoc/docker-odoo-adhoc.git" (or "git clone https://github.com/ingadhoc/docker-odoo-adhoc.git")
 * If you want to have areoo docs convertion you shoud run only once "docker run --name="aeroo" --restart=always -d adhoc/aeroo-docs"
+Then run "docker network connect dockernginxadhoc_backend aeroo"
 
 
 ## Run and usefull commands
